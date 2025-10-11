@@ -63,7 +63,7 @@ const VideoContainer = () => {
   };
 
   return (
-    <div className=" md:p-5 md:py-5">
+    <div className="mx-1 md:p-5 md:py-5">
       {videos.length > 0 ? (
         <div className="gap-4 md:mx-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 sm:gap-10">
           {videos.map((video) => (
