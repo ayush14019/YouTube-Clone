@@ -2,7 +2,7 @@
 
 A fully responsive YouTube clone built with React, Redux, and Tailwind CSS. Features include video browsing, search functionality, watch page, live comments, and a mobile-first responsive design.
 
-![YouTube Clone](https://img.shields.io/badge/React-18.x-blue) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8) ![Redux](https://img.shields.io/badge/Redux-Toolkit-764abc)
+![YouTube Clone](https://img.shields.io/badge/React-18.x-blue) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4.x-38bdf8) ![Redux](https://img.shields.io/badge/Redux-Toolkit-764abc)
 
 ## ✨ Features
 
