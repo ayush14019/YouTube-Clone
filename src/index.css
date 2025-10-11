@@ -1,0 +1,20 @@
+/* .scrollbox {
+  
+  overflow-y: auto; 
+} */
+
+.scrollbox::-webkit-scrollbar {
+  width: 0; 
+  background-color: transparent; 
+}
+
+.scrollbox:hover::-webkit-scrollbar {
+  width: 7px; 
+  cursor: pointer;
+}
+
+.scrollbox:hover::-webkit-scrollbar-thumb {
+  background-color: #888; 
+}
+
+

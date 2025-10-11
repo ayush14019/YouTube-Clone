@@ -1,0 +1,57 @@
+# Structure of Our Website
+- Head
+- Body
+- Sidebar
+   - Menubar
+- MainContainer
+  - ButtonList
+  - VideoContainer
+  - VideoCard
+
+# Debouncing:
+
+typing slow = 200ms
+typing fast = 30ms
+
+Performence:
+- iphone pro max = 14 letter * 1000 = 140000
+- with debouncing = 3 API Calls * 3000
+
+
+Debouncing with 200ms
+- if difference between 2 key store is < 200ms - Decline the API call
+- if difference between 2 key store is > 200ms make the API call
+
+
+# Process
+- key - i
+- render the component 
+- useEffect() called 
+- start timer => make an api  call after 200ms
+- 
+-
+-
+- key - ip
+- destroy the component (useEffect trturn method)
+- re-render the  component 
+- useEffect();
+- start timer => make an api call after 200ms  
+- 
+- setTimeout(200) - make an Api call 
+
+# Cache
+- time complexity to search in the array = O(n)
+- time complexity to search in the object = O(1)
+
+// if we are searching same keyword again and again so i want to store that keyword inside redux so that when i need i can access result from redux and not feching from api
+
+like [i , ip , iph ,  iphone]
+
+{
+    i:
+    ip:
+    iph:
+    ipho:
+    iphone:
+}
+  
