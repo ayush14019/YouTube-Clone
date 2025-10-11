@@ -202,7 +202,7 @@ Built with ❤️ by [Ayush]
 ## 📞 Contact
 
 For questions or feedback:
-- Email: your.email@example.com
+- Email: rajayush224@gmail.com
 - GitHub: [@ayush14019](https://github.com/ayush14019)
 - LinkedIn: [Ayush Raj](www.linkedin.com/in/ayush-raj-8bb362213)
 
