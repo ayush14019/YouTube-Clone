@@ -32,10 +32,11 @@ const VideoCard = ({ info }) => {
   };
 
   return (
-    <div className="w-[360px] m-2 cursor-pointer">
+    <div className="w-[360px] m-2   cursor-pointer">
       {/* Thumbnail */}
       <img
-        className="w-full h-56 object-cover rounded-xl"
+        // className="w-full h-56 object-cover rounded-xl"
+        className="w-full max-w-[430px] md:max-w-none object-cover rounded-xl"
         alt={title}
         src={thumbnails?.medium?.url || thumbnails?.high?.url}
       />
