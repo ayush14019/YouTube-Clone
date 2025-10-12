@@ -20,7 +20,6 @@ const WatchPage = () => {
       {/* Left Side - Video, Details, Comments */}
       <div className="flex flex-col flex-1">
         {/* Video Player */}
-        {/* Video Player */}
         <div className="w-full max-w-[430px] md:max-w-none">
           <iframe
             className="w-full aspect-video rounded-xl md:rounded-3xl"
