@@ -42,7 +42,7 @@ const CommentContainer = ({ videoId }) => {
   }, [videoId]);
 
   return (
-    <div className="md:m-5 md:ml-5 md:p-4 bg-white rounded-xl flex flex-col  w-[850px]">
+    <div className="md:m-5 md:ml-5 md:p-4 bg-white rounded-xl flex flex-col  md:w-[850px]">
       {/* ✅ Total Comments Count */}
       <h1 className="text-2xl font-bold text-gray-900">
         {totalComments.toLocaleString()} Comments
